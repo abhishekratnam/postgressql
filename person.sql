@@ -19,4 +19,4 @@ insert into person (id, first_name, last_name, email, gender, date, country_of_b
 select * from person;
 select first_name, last_name from person where email LIKE' @.com';
 select country from person where gender ='Female' AND last_name ='Perrie';	
-select email from person where country_of_birth='India' AND gender='Female'
+select email from person where country_of_birth='India' AND gender='Female';
